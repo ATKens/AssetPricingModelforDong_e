@@ -1,0 +1,1527 @@
+[09:38:18.436.282][8604][INFO][XTP:0][init_log_file]:End: XTPMDFlow//253191003452/log/quote.log, api version : 2.2.32
+[09:38:18.437.172][8604][DEBUG][XTP:0]Begin to register quote service function.
+[09:38:18.437.195][8604][DEBUG][XTP:0]register service function ok(2250).
+[09:38:18.437.204][8604][DEBUG][XTP:0]register service function ok(2001).
+[09:38:18.437.212][8604][DEBUG][XTP:0]register service function ok(2002).
+[09:38:18.437.220][8604][DEBUG][XTP:0]register service function ok(2003).
+[09:38:18.437.228][8604][DEBUG][XTP:0]register service function ok(2200).
+[09:38:18.437.236][8604][DEBUG][XTP:0]register service function ok(2201).
+[09:38:18.437.243][8604][DEBUG][XTP:0]register service function ok(2202).
+[09:38:18.437.966][8604][DEBUG][XTP:0]register service function ok(2210).
+[09:38:18.437.980][8604][DEBUG][XTP:0]register service function ok(2211).
+[09:38:18.437.983][8604][DEBUG][XTP:0]register service function ok(2212).
+[09:38:18.437.987][8604][DEBUG][XTP:0]register service function ok(2011).
+[09:38:18.437.990][8604][DEBUG][XTP:0]register service function ok(51).
+[09:38:18.437.993][8604][DEBUG][XTP:0]register service function ok(53).
+[09:38:18.438.095][8604][DEBUG][XTP:0]register service function ok(9).
+[09:38:18.438.103][8604][DEBUG][XTP:0]register service function ok(2005).
+[09:38:18.438.107][8604][DEBUG][XTP:0]register service function ok(2006).
+[09:38:18.438.110][8604][DEBUG][XTP:0]register service function ok(2205).
+[09:38:18.438.113][8604][DEBUG][XTP:0]register service function ok(2206).
+[09:38:18.438.116][8604][DEBUG][XTP:0]register service function ok(2215).
+[09:38:18.438.119][8604][DEBUG][XTP:0]register service function ok(2216).
+[09:38:18.438.122][8604][DEBUG][XTP:0]register service function ok(2012).
+[09:38:18.438.126][8604][DEBUG][XTP:0]register service function ok(2018).
+[09:38:18.438.129][8604][DEBUG][XTP:0]register service function ok(2220).
+[09:38:18.438.132][8604][DEBUG][XTP:0]register service function ok(2222).
+[09:38:18.438.135][8604][DEBUG][XTP:0]register service function ok(2224).
+[09:38:18.438.138][8604][DEBUG][XTP:0]register service function ok(2251).
+[09:38:18.438.141][8604][DEBUG][XTP:0]End to register quote service function 1.
+[09:38:18.480.582][8604][INFO][XTP:0]Begin to login to quote server 119.3.103.38:6002.
+[09:38:18.587.700][8604][DEBUG][XTP:0]Receive login info from quote server.
+[09:38:18.588.002][8604][INFO][XTP:0]Receive trading day 20240304 from quote server success.
+[09:38:18.588.399][8604][INFO][XTP:0]Receive md udp group 230.1.7.45 : 7771 from quote server success.
+[09:38:18.588.439][8604][INFO][XTP:0]Receive tbt udp group 230.1.7.45 : 7771 from quote server success.
+[09:38:18.588.443][8604][INFO][XTP:0]Receive ob udp group 230.1.7.45 : 7771 from quote server success.
+[09:38:18.588.447][8604][INFO][XTP:0]Receive optmd udp group 230.1.7.45 : 7771 from quote server success.
+[09:38:18.588.705][8604][DEBUG][XTP:0]api_login_server successful: 426770432.
+[09:38:18.588.718][8604][INFO][XTP:0]Connect to quote server 119.3.103.38:6002 success.
+[09:38:18.589.066][4720][INFO][XTP:0]thread(api work) start...
+[09:38:18.589.567][8604][INFO][XTP:0]Begin to subscribe market data with tcp.
+[09:38:18.589.929][8604][INFO][XTP:0]End to subscribe market data with tcp.
+[09:38:18.590.002][8604][INFO][XTP:0]Begin to subscribe tick by tick with tcp.
+[09:38:18.590.083][8604][INFO][XTP:0]End to subscribe tick by tick with tcp.
+[09:38:18.590.104][8604][INFO][XTP:0]Begin to subscribe market data with tcp.
+[09:38:18.590.146][8604][INFO][XTP:0]End to subscribe market data with tcp.
+[09:38:18.590.160][8604][INFO][XTP:0]Begin to subscribe tick by tick with tcp.
+[09:38:18.590.193][8604][INFO][XTP:0]End to subscribe tick by tick with tcp.
+[09:38:18.621.319][4720][DEBUG][XTP:0]service(9) call time 1
+[09:38:18.656.542][4720][DEBUG][XTP:0]Receive subscribe market data.
+[09:38:18.656.581][4720][DEBUG][XTP:0]Receive subscribe market data success.
+[09:38:18.656.585][4720][DEBUG][XTP:0]service(2001) call time 44
+[09:38:18.656.589][4720][DEBUG][XTP:0]Receive subscribe tick by tick.
+[09:38:18.656.793][4720][DEBUG][XTP:0]Receive subscribe  tick by tick success.
+[09:38:18.656.843][4720][DEBUG][XTP:0]service(2210) call time 254
+[09:38:18.656.849][4720][DEBUG][XTP:0]Receive subscribe market data.
+[09:38:18.656.869][4720][DEBUG][XTP:0]Receive subscribe market data success.
+[09:38:18.656.874][4720][DEBUG][XTP:0]service(2001) call time 25
+[09:38:18.656.878][4720][DEBUG][XTP:0]Receive subscribe tick by tick.
+[09:38:18.656.881][4720][DEBUG][XTP:0]Receive subscribe  tick by tick success.
+[09:38:18.656.885][4720][DEBUG][XTP:0]service(2210) call time 8
+[09:38:18.657.856][4720][DEBUG][XTP:0]Receive last market data.
+[09:38:18.658.581][4720][DEBUG][XTP:0]Receive last market data success.
+[09:38:18.658.602][4720][DEBUG][XTP:0]service(2018) call time 747
+[09:38:18.659.106][4720][DEBUG][XTP:0]Receive last market data.
+[09:38:18.659.138][4720][DEBUG][XTP:0]Receive last market data success.
+[09:38:18.659.142][4720][DEBUG][XTP:0]service(2018) call time 37
+[09:38:18.667.712][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:18.667.759][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:18.667.763][4720][DEBUG][XTP:0]service(2212) call time 52
+[09:38:18.667.768][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:18.667.772][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:18.667.776][4720][DEBUG][XTP:0]service(2212) call time 8
+[09:38:18.688.712][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:18.688.750][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:18.688.754][4720][DEBUG][XTP:0]service(2212) call time 43
+[09:38:18.688.759][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:18.688.763][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:18.688.767][4720][DEBUG][XTP:0]service(2212) call time 8
+[09:38:18.784.566][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:18.784.655][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:18.784.670][4720][DEBUG][XTP:0]service(2212) call time 105
+[09:38:18.786.019][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:18.786.052][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:18.786.056][4720][DEBUG][XTP:0]service(2212) call time 38
+[09:38:18.786.060][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:18.786.066][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:18.786.069][4720][DEBUG][XTP:0]service(2212) call time 9
+[09:38:18.786.072][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:18.786.076][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:18.786.079][4720][DEBUG][XTP:0]service(2212) call time 7
+[09:38:18.799.762][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:18.799.856][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:18.799.864][4720][DEBUG][XTP:0]service(2212) call time 103
+[09:38:18.800.576][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:18.800.670][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:18.800.678][4720][DEBUG][XTP:0]service(2212) call time 103
+[09:38:18.875.925][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:18.876.009][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:18.876.013][4720][DEBUG][XTP:0]service(2212) call time 90
+[09:38:18.883.528][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:18.883.656][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:18.883.666][4720][DEBUG][XTP:0]service(2212) call time 139
+[09:38:18.911.055][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:18.911.147][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:18.911.163][4720][DEBUG][XTP:0]service(2212) call time 108
+[09:38:18.934.364][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:18.934.428][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:18.934.435][4720][DEBUG][XTP:0]service(2212) call time 72
+[09:38:18.938.385][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:18.938.443][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:18.938.447][4720][DEBUG][XTP:0]service(2212) call time 63
+[09:38:18.964.234][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:18.964.305][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:18.964.312][4720][DEBUG][XTP:0]service(2212) call time 79
+[09:38:18.964.317][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:18.964.322][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:18.964.399][4720][DEBUG][XTP:0]service(2212) call time 82
+[09:38:18.966.009][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:18.966.077][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:18.966.081][4720][DEBUG][XTP:0]service(2212) call time 73
+[09:38:18.966.086][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:18.966.091][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:18.966.094][4720][DEBUG][XTP:0]service(2212) call time 8
+[09:38:19.007.252][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.007.324][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.007.332][4720][DEBUG][XTP:0]service(2212) call time 81
+[09:38:19.032.484][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.032.570][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.032.600][4720][DEBUG][XTP:0]service(2212) call time 117
+[09:38:19.049.713][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.049.762][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.049.766][4720][DEBUG][XTP:0]service(2212) call time 54
+[09:38:19.108.548][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.108.751][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.108.766][4720][DEBUG][XTP:0]service(2212) call time 219
+[09:38:19.121.554][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.121.641][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.121.648][4720][DEBUG][XTP:0]service(2212) call time 95
+[09:38:19.121.653][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.121.658][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.121.661][4720][DEBUG][XTP:0]service(2212) call time 8
+[09:38:19.275.050][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.275.144][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.275.151][4720][DEBUG][XTP:0]service(2212) call time 103
+[09:38:19.275.156][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.275.161][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.275.164][4720][DEBUG][XTP:0]service(2212) call time 8
+[09:38:19.287.475][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.287.540][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.287.547][4720][DEBUG][XTP:0]service(2212) call time 73
+[09:38:19.330.441][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.330.508][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.330.515][4720][DEBUG][XTP:0]service(2212) call time 75
+[09:38:19.360.949][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.361.052][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.361.060][4720][DEBUG][XTP:0]service(2212) call time 113
+[09:38:19.361.503][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.361.538][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.361.541][4720][DEBUG][XTP:0]service(2212) call time 39
+[09:38:19.389.079][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.389.150][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.389.157][4720][DEBUG][XTP:0]service(2212) call time 79
+[09:38:19.389.161][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.389.168][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.389.171][4720][DEBUG][XTP:0]service(2212) call time 10
+[09:38:19.417.498][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.417.651][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.417.659][4720][DEBUG][XTP:0]service(2212) call time 162
+[09:38:19.464.306][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.464.401][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.464.411][4720][DEBUG][XTP:0]service(2212) call time 106
+[09:38:19.464.416][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.464.423][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.464.428][4720][DEBUG][XTP:0]service(2212) call time 12
+[09:38:19.486.041][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.486.129][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.486.144][4720][DEBUG][XTP:0]service(2212) call time 104
+[09:38:19.486.153][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.486.165][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.486.180][4720][DEBUG][XTP:0]service(2212) call time 27
+[09:38:19.499.248][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.499.356][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.499.371][4720][DEBUG][XTP:0]service(2212) call time 124
+[09:38:19.499.381][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.499.391][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.499.399][4720][DEBUG][XTP:0]service(2212) call time 19
+[09:38:19.499.407][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.499.415][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.499.422][4720][DEBUG][XTP:0]service(2212) call time 16
+[09:38:19.500.193][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.500.278][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.500.293][4720][DEBUG][XTP:0]service(2212) call time 102
+[09:38:19.500.303][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.500.315][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.500.322][4720][DEBUG][XTP:0]service(2212) call time 19
+[09:38:19.501.515][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.501.583][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.501.590][4720][DEBUG][XTP:0]service(2212) call time 76
+[09:38:19.526.665][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.526.730][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.526.737][4720][DEBUG][XTP:0]service(2212) call time 73
+[09:38:19.569.799][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.569.861][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.569.868][4720][DEBUG][XTP:0]service(2212) call time 70
+[09:38:19.569.873][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.569.878][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.569.894][4720][DEBUG][XTP:0]service(2212) call time 21
+[09:38:19.569.897][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.569.902][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.569.906][4720][DEBUG][XTP:0]service(2212) call time 9
+[09:38:19.569.909][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.569.913][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.569.916][4720][DEBUG][XTP:0]service(2212) call time 7
+[09:38:19.569.919][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.569.925][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.569.928][4720][DEBUG][XTP:0]service(2212) call time 9
+[09:38:19.581.130][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.581.191][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.581.195][4720][DEBUG][XTP:0]service(2212) call time 66
+[09:38:19.582.199][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.582.260][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.582.267][4720][DEBUG][XTP:0]service(2212) call time 69
+[09:38:19.582.271][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.582.276][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.582.280][4720][DEBUG][XTP:0]service(2212) call time 9
+[09:38:19.582.283][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.582.287][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.582.290][4720][DEBUG][XTP:0]service(2212) call time 7
+[09:38:19.582.293][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.582.297][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.582.300][4720][DEBUG][XTP:0]service(2212) call time 7
+[09:38:19.582.304][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.582.308][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.582.311][4720][DEBUG][XTP:0]service(2212) call time 7
+[09:38:19.596.708][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.596.773][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.596.780][4720][DEBUG][XTP:0]service(2212) call time 73
+[09:38:19.684.035][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.684.088][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.684.092][4720][DEBUG][XTP:0]service(2212) call time 58
+[09:38:19.698.227][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.698.298][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.698.308][4720][DEBUG][XTP:0]service(2212) call time 82
+[09:38:19.698.424][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.698.502][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.698.520][4720][DEBUG][XTP:0]service(2212) call time 96
+[09:38:19.762.806][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.762.870][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.762.877][4720][DEBUG][XTP:0]service(2212) call time 72
+[09:38:19.763.988][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.764.046][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.764.053][4720][DEBUG][XTP:0]service(2212) call time 66
+[09:38:19.765.290][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.765.339][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.765.346][4720][DEBUG][XTP:0]service(2212) call time 57
+[09:38:19.778.103][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.778.157][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.778.161][4720][DEBUG][XTP:0]service(2212) call time 60
+[09:38:19.778.976][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.779.084][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.779.099][4720][DEBUG][XTP:0]service(2212) call time 124
+[09:38:19.779.109][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.779.149][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.779.159][4720][DEBUG][XTP:0]service(2212) call time 51
+[09:38:19.779.167][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.779.178][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.779.185][4720][DEBUG][XTP:0]service(2212) call time 18
+[09:38:19.779.193][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.779.201][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.779.209][4720][DEBUG][XTP:0]service(2212) call time 15
+[09:38:19.779.216][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.779.224][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.779.231][4720][DEBUG][XTP:0]service(2212) call time 15
+[09:38:19.790.805][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.790.860][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.790.864][4720][DEBUG][XTP:0]service(2212) call time 60
+[09:38:19.851.215][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.851.301][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.851.312][4720][DEBUG][XTP:0]service(2212) call time 98
+[09:38:19.851.318][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.851.328][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.851.332][4720][DEBUG][XTP:0]service(2212) call time 14
+[09:38:19.851.337][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.851.343][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.851.347][4720][DEBUG][XTP:0]service(2212) call time 10
+[09:38:19.851.352][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.851.360][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.851.364][4720][DEBUG][XTP:0]service(2212) call time 12
+[09:38:19.859.377][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.859.438][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.859.445][4720][DEBUG][XTP:0]service(2212) call time 69
+[09:38:19.859.450][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.859.455][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.859.458][4720][DEBUG][XTP:0]service(2212) call time 8
+[09:38:19.879.405][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.879.479][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.879.490][4720][DEBUG][XTP:0]service(2212) call time 86
+[09:38:19.879.496][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.879.505][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.879.510][4720][DEBUG][XTP:0]service(2212) call time 14
+[09:38:19.927.271][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.927.345][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.927.352][4720][DEBUG][XTP:0]service(2212) call time 82
+[09:38:19.951.691][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.951.746][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.951.750][4720][DEBUG][XTP:0]service(2212) call time 60
+[09:38:19.998.083][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:19.998.150][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:19.998.158][4720][DEBUG][XTP:0]service(2212) call time 76
+[09:38:20.013.868][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.013.931][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.013.938][4720][DEBUG][XTP:0]service(2212) call time 71
+[09:38:20.040.853][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.040.924][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.040.932][4720][DEBUG][XTP:0]service(2212) call time 78
+[09:38:20.109.172][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.109.260][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.109.276][4720][DEBUG][XTP:0]service(2212) call time 105
+[09:38:20.109.285][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.109.301][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.109.308][4720][DEBUG][XTP:0]service(2212) call time 23
+[09:38:20.109.316][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.109.347][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.109.360][4720][DEBUG][XTP:0]service(2212) call time 44
+[09:38:20.121.123][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.121.182][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.121.190][4720][DEBUG][XTP:0]service(2212) call time 67
+[09:38:20.152.523][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.152.573][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.152.577][4720][DEBUG][XTP:0]service(2212) call time 55
+[09:38:20.166.192][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.166.256][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.166.263][4720][DEBUG][XTP:0]service(2212) call time 72
+[09:38:20.193.995][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.194.084][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.194.100][4720][DEBUG][XTP:0]service(2212) call time 106
+[09:38:20.194.110][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.194.121][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.194.129][4720][DEBUG][XTP:0]service(2212) call time 19
+[09:38:20.194.137][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.194.168][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.194.181][4720][DEBUG][XTP:0]service(2212) call time 44
+[09:38:20.194.189][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.194.221][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.194.234][4720][DEBUG][XTP:0]service(2212) call time 45
+[09:38:20.206.484][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.206.553][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.206.560][4720][DEBUG][XTP:0]service(2212) call time 77
+[09:38:20.206.565][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.206.572][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.206.576][4720][DEBUG][XTP:0]service(2212) call time 12
+[09:38:20.206.579][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.206.583][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.206.587][4720][DEBUG][XTP:0]service(2212) call time 8
+[09:38:20.206.591][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.206.595][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.206.598][4720][DEBUG][XTP:0]service(2212) call time 7
+[09:38:20.206.601][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.206.605][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.206.608][4720][DEBUG][XTP:0]service(2212) call time 7
+[09:38:20.261.368][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.261.452][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.261.460][4720][DEBUG][XTP:0]service(2212) call time 93
+[09:38:20.354.297][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.354.385][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.354.392][4720][DEBUG][XTP:0]service(2212) call time 97
+[09:38:20.354.407][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.354.413][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.354.416][4720][DEBUG][XTP:0]service(2212) call time 9
+[09:38:20.356.862][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.356.936][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.356.944][4720][DEBUG][XTP:0]service(2212) call time 83
+[09:38:20.412.402][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.412.463][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.412.470][4720][DEBUG][XTP:0]service(2212) call time 69
+[09:38:20.493.060][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.493.122][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.493.129][4720][DEBUG][XTP:0]service(2212) call time 69
+[09:38:20.519.081][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.519.143][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.519.150][4720][DEBUG][XTP:0]service(2212) call time 70
+[09:38:20.519.154][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.519.160][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.519.163][4720][DEBUG][XTP:0]service(2212) call time 9
+[09:38:20.561.540][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.561.629][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.561.641][4720][DEBUG][XTP:0]service(2212) call time 98
+[09:38:20.575.903][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.576.087][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.576.097][4720][DEBUG][XTP:0]service(2212) call time 195
+[09:38:20.587.799][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.587.859][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.587.866][4720][DEBUG][XTP:0]service(2212) call time 68
+[09:38:20.676.531][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.676.596][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.676.603][4720][DEBUG][XTP:0]service(2212) call time 73
+[09:38:20.688.071][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.688.157][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.688.167][4720][DEBUG][XTP:0]service(2212) call time 97
+[09:38:20.690.073][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.690.142][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.690.149][4720][DEBUG][XTP:0]service(2212) call time 77
+[09:38:20.690.153][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.690.159][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.690.162][4720][DEBUG][XTP:0]service(2212) call time 9
+[09:38:20.690.166][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.690.169][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.690.172][4720][DEBUG][XTP:0]service(2212) call time 6
+[09:38:20.690.176][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.690.179][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.690.182][4720][DEBUG][XTP:0]service(2212) call time 6
+[09:38:20.690.186][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.690.191][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.690.194][4720][DEBUG][XTP:0]service(2212) call time 8
+[09:38:20.690.197][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.690.201][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.690.204][4720][DEBUG][XTP:0]service(2212) call time 7
+[09:38:20.690.207][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.690.211][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.690.214][4720][DEBUG][XTP:0]service(2212) call time 7
+[09:38:20.690.217][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.690.221][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.690.224][4720][DEBUG][XTP:0]service(2212) call time 7
+[09:38:20.690.227][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.690.230][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.690.233][4720][DEBUG][XTP:0]service(2212) call time 6
+[09:38:20.690.237][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.690.240][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.690.243][4720][DEBUG][XTP:0]service(2212) call time 6
+[09:38:20.700.839][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.700.902][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.700.909][4720][DEBUG][XTP:0]service(2212) call time 71
+[09:38:20.700.913][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.700.918][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.700.928][4720][DEBUG][XTP:0]service(2212) call time 15
+[09:38:20.721.297][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.721.363][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.721.370][4720][DEBUG][XTP:0]service(2212) call time 75
+[09:38:20.721.375][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.721.380][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.721.383][4720][DEBUG][XTP:0]service(2212) call time 8
+[09:38:20.733.512][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.733.579][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.733.598][4720][DEBUG][XTP:0]service(2212) call time 87
+[09:38:20.733.605][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.733.627][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.733.634][4720][DEBUG][XTP:0]service(2212) call time 29
+[09:38:20.735.216][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.735.299][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.735.305][4720][DEBUG][XTP:0]service(2212) call time 90
+[09:38:20.735.327][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.735.337][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.735.342][4720][DEBUG][XTP:0]service(2212) call time 15
+[09:38:20.735.347][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.735.352][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.735.361][4720][DEBUG][XTP:0]service(2212) call time 14
+[09:38:20.735.365][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.735.371][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.735.375][4720][DEBUG][XTP:0]service(2212) call time 10
+[09:38:20.735.378][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.735.382][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.735.385][4720][DEBUG][XTP:0]service(2212) call time 7
+[09:38:20.735.388][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.735.392][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.735.395][4720][DEBUG][XTP:0]service(2212) call time 7
+[09:38:20.735.398][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.735.402][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.735.405][4720][DEBUG][XTP:0]service(2212) call time 7
+[09:38:20.749.112][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.749.163][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.749.167][4720][DEBUG][XTP:0]service(2212) call time 56
+[09:38:20.774.764][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.774.830][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.774.837][4720][DEBUG][XTP:0]service(2212) call time 74
+[09:38:20.774.853][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.774.928][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.774.976][4720][DEBUG][XTP:0]service(2212) call time 123
+[09:38:20.775.008][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.775.019][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.775.022][4720][DEBUG][XTP:0]service(2212) call time 14
+[09:38:20.804.995][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.805.063][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.805.070][4720][DEBUG][XTP:0]service(2212) call time 76
+[09:38:20.817.710][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.817.782][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.817.788][4720][DEBUG][XTP:0]service(2212) call time 79
+[09:38:20.817.794][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.817.804][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.817.808][4720][DEBUG][XTP:0]service(2212) call time 14
+[09:38:20.819.246][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.819.312][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.819.319][4720][DEBUG][XTP:0]service(2212) call time 74
+[09:38:20.819.324][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.819.329][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.819.332][4720][DEBUG][XTP:0]service(2212) call time 8
+[09:38:20.859.829][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.859.905][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.859.912][4720][DEBUG][XTP:0]service(2212) call time 84
+[09:38:20.887.669][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.887.742][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.887.750][4720][DEBUG][XTP:0]service(2212) call time 82
+[09:38:20.899.242][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.899.312][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.899.320][4720][DEBUG][XTP:0]service(2212) call time 79
+[09:38:20.899.324][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.899.345][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.899.350][4720][DEBUG][XTP:0]service(2212) call time 26
+[09:38:20.899.364][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.899.371][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.899.374][4720][DEBUG][XTP:0]service(2212) call time 10
+[09:38:20.899.378][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.899.382][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.899.385][4720][DEBUG][XTP:0]service(2212) call time 7
+[09:38:20.940.386][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.940.481][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.940.489][4720][DEBUG][XTP:0]service(2212) call time 104
+[09:38:20.941.450][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.941.527][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.941.534][4720][DEBUG][XTP:0]service(2212) call time 85
+[09:38:20.941.552][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.941.560][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.941.564][4720][DEBUG][XTP:0]service(2212) call time 12
+[09:38:20.941.567][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.941.572][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.941.575][4720][DEBUG][XTP:0]service(2212) call time 8
+[09:38:20.953.516][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.953.580][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.953.587][4720][DEBUG][XTP:0]service(2212) call time 72
+[09:38:20.955.173][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.955.240][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.955.248][4720][DEBUG][XTP:0]service(2212) call time 76
+[09:38:20.955.253][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.955.259][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.955.263][4720][DEBUG][XTP:0]service(2212) call time 10
+[09:38:20.956.574][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.956.654][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.956.661][4720][DEBUG][XTP:0]service(2212) call time 89
+[09:38:20.956.666][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.956.670][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.956.674][4720][DEBUG][XTP:0]service(2212) call time 8
+[09:38:20.956.677][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.956.681][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.956.684][4720][DEBUG][XTP:0]service(2212) call time 7
+[09:38:20.968.254][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.968.316][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.968.320][4720][DEBUG][XTP:0]service(2212) call time 67
+[09:38:20.968.324][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.968.328][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.968.332][4720][DEBUG][XTP:0]service(2212) call time 8
+[09:38:20.968.335][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.968.340][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.968.344][4720][DEBUG][XTP:0]service(2212) call time 9
+[09:38:20.997.051][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:20.997.103][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:20.997.107][4720][DEBUG][XTP:0]service(2212) call time 56
+[09:38:21.024.808][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.024.884][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.024.888][4720][DEBUG][XTP:0]service(2212) call time 82
+[09:38:21.038.660][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.038.730][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.038.737][4720][DEBUG][XTP:0]service(2212) call time 78
+[09:38:21.039.664][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.039.739][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.039.749][4720][DEBUG][XTP:0]service(2212) call time 86
+[09:38:21.082.271][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.082.341][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.082.348][4720][DEBUG][XTP:0]service(2212) call time 79
+[09:38:21.114.677][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.114.727][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.114.731][4720][DEBUG][XTP:0]service(2212) call time 55
+[09:38:21.126.285][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.126.357][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.126.368][4720][DEBUG][XTP:0]service(2212) call time 84
+[09:38:21.126.375][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.126.383][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.126.387][4720][DEBUG][XTP:0]service(2212) call time 12
+[09:38:21.127.933][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.128.042][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.128.057][4720][DEBUG][XTP:0]service(2212) call time 125
+[09:38:21.144.435][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.144.492][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.144.497][4720][DEBUG][XTP:0]service(2212) call time 62
+[09:38:21.144.501][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.144.505][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.144.509][4720][DEBUG][XTP:0]service(2212) call time 8
+[09:38:21.168.714][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.168.782][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.168.801][4720][DEBUG][XTP:0]service(2212) call time 88
+[09:38:21.182.579][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.182.981][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.183.002][4720][DEBUG][XTP:0]service(2212) call time 423
+[09:38:21.194.452][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.194.494][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.194.498][4720][DEBUG][XTP:0]service(2212) call time 47
+[09:38:21.196.161][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.196.210][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.196.214][4720][DEBUG][XTP:0]service(2212) call time 54
+[09:38:21.210.060][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.210.137][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.210.193][4720][DEBUG][XTP:0]service(2212) call time 134
+[09:38:21.261.582][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.261.664][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.261.672][4720][DEBUG][XTP:0]service(2212) call time 90
+[09:38:21.262.273][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.262.313][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.262.317][4720][DEBUG][XTP:0]service(2212) call time 45
+[09:38:21.263.172][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.263.226][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.263.231][4720][DEBUG][XTP:0]service(2212) call time 60
+[09:38:21.363.132][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.363.211][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.363.218][4720][DEBUG][XTP:0]service(2212) call time 87
+[09:38:21.390.516][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.390.629][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.390.637][4720][DEBUG][XTP:0]service(2212) call time 121
+[09:38:21.390.641][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.390.647][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.390.650][4720][DEBUG][XTP:0]service(2212) call time 9
+[09:38:21.390.654][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.390.658][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.390.661][4720][DEBUG][XTP:0]service(2212) call time 7
+[09:38:21.403.620][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.403.934][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.403.959][4720][DEBUG][XTP:0]service(2212) call time 341
+[09:38:21.417.209][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.417.297][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.417.317][4720][DEBUG][XTP:0]service(2212) call time 108
+[09:38:21.417.327][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.417.338][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.417.345][4720][DEBUG][XTP:0]service(2212) call time 18
+[09:38:21.428.843][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.428.905][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.428.912][4720][DEBUG][XTP:0]service(2212) call time 70
+[09:38:21.512.446][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.512.508][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.512.516][4720][DEBUG][XTP:0]service(2212) call time 71
+[09:38:21.597.326][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.597.388][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.597.395][4720][DEBUG][XTP:0]service(2212) call time 69
+[09:38:21.656.872][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.656.931][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.656.938][4720][DEBUG][XTP:0]service(2212) call time 66
+[09:38:21.669.067][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.669.135][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.669.142][4720][DEBUG][XTP:0]service(2212) call time 76
+[09:38:21.670.084][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.670.149][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.670.156][4720][DEBUG][XTP:0]service(2212) call time 73
+[09:38:21.722.285][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.722.346][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.722.353][4720][DEBUG][XTP:0]service(2212) call time 69
+[09:38:21.723.505][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.723.566][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.723.580][4720][DEBUG][XTP:0]service(2212) call time 75
+[09:38:21.723.988][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.724.026][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.724.033][4720][DEBUG][XTP:0]service(2212) call time 46
+[09:38:21.724.037][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.724.042][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.724.045][4720][DEBUG][XTP:0]service(2212) call time 8
+[09:38:21.737.632][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.737.694][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.737.700][4720][DEBUG][XTP:0]service(2212) call time 70
+[09:38:21.752.529][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.752.648][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.752.656][4720][DEBUG][XTP:0]service(2212) call time 127
+[09:38:21.753.721][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.753.741][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.753.745][4720][DEBUG][XTP:0]service(2212) call time 24
+[09:38:21.822.248][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.822.308][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.822.315][4720][DEBUG][XTP:0]service(2212) call time 68
+[09:38:21.822.319][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.822.324][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.822.327][4720][DEBUG][XTP:0]service(2212) call time 8
+[09:38:21.834.926][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.834.984][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.834.991][4720][DEBUG][XTP:0]service(2212) call time 66
+[09:38:21.851.724][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.851.784][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.851.791][4720][DEBUG][XTP:0]service(2212) call time 68
+[09:38:21.851.795][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.851.801][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.851.804][4720][DEBUG][XTP:0]service(2212) call time 9
+[09:38:21.890.922][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.891.024][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.891.039][4720][DEBUG][XTP:0]service(2212) call time 119
+[09:38:21.891.048][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.891.059][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.891.078][4720][DEBUG][XTP:0]service(2212) call time 30
+[09:38:21.892.573][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.892.635][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.892.642][4720][DEBUG][XTP:0]service(2212) call time 70
+[09:38:21.904.875][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.904.964][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.905.079][4720][DEBUG][XTP:0]service(2212) call time 205
+[09:38:21.905.089][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.905.125][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.905.138][4720][DEBUG][XTP:0]service(2212) call time 49
+[09:38:21.905.146][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.905.161][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.905.167][4720][DEBUG][XTP:0]service(2212) call time 21
+[09:38:21.905.182][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.905.199][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.905.206][4720][DEBUG][XTP:0]service(2212) call time 24
+[09:38:21.945.542][4720][DEBUG][XTP:0]Receive tick by tick.
+[09:38:21.945.630][4720][DEBUG][XTP:0]Receive tick by tick success.
+[09:38:21.945.637][4720][DEBUG][XTP:0]service(2212) call time 96
+[09:48:26.091.126][6772][INFO][XTP:0][init_log_file]:End: XTPMDFlow//253191003452/log/quote.log, api version : 2.2.32
+[09:48:26.092.150][6772][DEBUG][XTP:0]Begin to register quote service function.
+[09:48:26.092.188][6772][DEBUG][XTP:0]register service function ok(2250).
+[09:48:26.092.193][6772][DEBUG][XTP:0]register service function ok(2001).
+[09:48:26.092.197][6772][DEBUG][XTP:0]register service function ok(2002).
+[09:48:26.092.201][6772][DEBUG][XTP:0]register service function ok(2003).
+[09:48:26.092.205][6772][DEBUG][XTP:0]register service function ok(2200).
+[09:48:26.092.209][6772][DEBUG][XTP:0]register service function ok(2201).
+[09:48:26.092.213][6772][DEBUG][XTP:0]register service function ok(2202).
+[09:48:26.092.217][6772][DEBUG][XTP:0]register service function ok(2210).
+[09:48:26.092.221][6772][DEBUG][XTP:0]register service function ok(2211).
+[09:48:26.092.225][6772][DEBUG][XTP:0]register service function ok(2212).
+[09:48:26.092.229][6772][DEBUG][XTP:0]register service function ok(2011).
+[09:48:26.092.233][6772][DEBUG][XTP:0]register service function ok(51).
+[09:48:26.092.237][6772][DEBUG][XTP:0]register service function ok(53).
+[09:48:26.092.243][6772][DEBUG][XTP:0]register service function ok(9).
+[09:48:26.092.248][6772][DEBUG][XTP:0]register service function ok(2005).
+[09:48:26.092.252][6772][DEBUG][XTP:0]register service function ok(2006).
+[09:48:26.092.256][6772][DEBUG][XTP:0]register service function ok(2205).
+[09:48:26.092.260][6772][DEBUG][XTP:0]register service function ok(2206).
+[09:48:26.092.264][6772][DEBUG][XTP:0]register service function ok(2215).
+[09:48:26.092.267][6772][DEBUG][XTP:0]register service function ok(2216).
+[09:48:26.092.271][6772][DEBUG][XTP:0]register service function ok(2012).
+[09:48:26.092.275][6772][DEBUG][XTP:0]register service function ok(2018).
+[09:48:26.092.279][6772][DEBUG][XTP:0]register service function ok(2220).
+[09:48:26.092.283][6772][DEBUG][XTP:0]register service function ok(2222).
+[09:48:26.092.287][6772][DEBUG][XTP:0]register service function ok(2224).
+[09:48:26.092.291][6772][DEBUG][XTP:0]register service function ok(2251).
+[09:48:26.092.295][6772][DEBUG][XTP:0]End to register quote service function 1.
+[09:48:26.146.565][6772][INFO][XTP:0]Begin to login to quote server 119.3.103.38:6002.
+[09:48:26.260.014][6772][DEBUG][XTP:0]Receive login info from quote server.
+[09:48:26.260.063][6772][INFO][XTP:0]Receive trading day 20240304 from quote server success.
+[09:48:26.260.074][6772][INFO][XTP:0]Receive md udp group 230.1.7.45 : 7771 from quote server success.
+[09:48:26.260.078][6772][INFO][XTP:0]Receive tbt udp group 230.1.7.45 : 7771 from quote server success.
+[09:48:26.260.082][6772][INFO][XTP:0]Receive ob udp group 230.1.7.45 : 7771 from quote server success.
+[09:48:26.260.085][6772][INFO][XTP:0]Receive optmd udp group 230.1.7.45 : 7771 from quote server success.
+[09:48:26.260.355][6772][DEBUG][XTP:0]api_login_server successful: 426770432.
+[09:48:26.260.365][6772][INFO][XTP:0]Connect to quote server 119.3.103.38:6002 success.
+[09:48:26.260.579][7184][INFO][XTP:0]thread(api work) start...
+[09:48:26.260.689][6772][INFO][XTP:0]Begin to subscribe market data with tcp.
+[09:48:26.260.783][6772][INFO][XTP:0]End to subscribe market data with tcp.
+[09:48:26.260.797][6772][INFO][XTP:0]Begin to subscribe tick by tick with tcp.
+[09:48:26.260.855][6772][INFO][XTP:0]End to subscribe tick by tick with tcp.
+[09:48:26.260.870][6772][INFO][XTP:0]Begin to subscribe market data with tcp.
+[09:48:26.260.923][6772][INFO][XTP:0]End to subscribe market data with tcp.
+[09:48:26.260.935][6772][INFO][XTP:0]Begin to subscribe tick by tick with tcp.
+[09:48:26.260.980][6772][INFO][XTP:0]End to subscribe tick by tick with tcp.
+[09:48:26.289.271][7184][DEBUG][XTP:0]service(9) call time 2
+[09:48:26.318.792][7184][DEBUG][XTP:0]Receive subscribe market data.
+[09:48:26.318.837][7184][DEBUG][XTP:0]Receive subscribe market data success.
+[09:48:26.318.842][7184][DEBUG][XTP:0]service(2001) call time 51
+[09:48:26.318.846][7184][DEBUG][XTP:0]Receive subscribe tick by tick.
+[09:48:26.318.866][7184][DEBUG][XTP:0]Receive subscribe  tick by tick success.
+[09:48:26.318.870][7184][DEBUG][XTP:0]service(2210) call time 24
+[09:48:26.318.874][7184][DEBUG][XTP:0]Receive subscribe market data.
+[09:48:26.318.878][7184][DEBUG][XTP:0]Receive subscribe market data success.
+[09:48:26.318.882][7184][DEBUG][XTP:0]service(2001) call time 8
+[09:48:26.318.886][7184][DEBUG][XTP:0]Receive subscribe tick by tick.
+[09:48:26.318.890][7184][DEBUG][XTP:0]Receive subscribe  tick by tick success.
+[09:48:26.318.893][7184][DEBUG][XTP:0]service(2210) call time 7
+[09:48:26.319.497][7184][DEBUG][XTP:0]Receive last market data.
+[09:48:26.320.006][7184][DEBUG][XTP:0]Receive last market data success.
+[09:48:26.320.022][7184][DEBUG][XTP:0]service(2018) call time 526
+[09:48:26.320.620][7184][DEBUG][XTP:0]Receive last market data.
+[09:48:26.320.652][7184][DEBUG][XTP:0]Receive last market data success.
+[09:48:26.320.656][7184][DEBUG][XTP:0]service(2018) call time 36
+[09:48:26.368.443][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.368.507][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.368.514][7184][DEBUG][XTP:0]service(2212) call time 71
+[09:48:26.369.002][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.369.029][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.369.033][7184][DEBUG][XTP:0]service(2212) call time 32
+[09:48:26.369.037][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.369.042][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.369.045][7184][DEBUG][XTP:0]service(2212) call time 8
+[09:48:26.369.049][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.369.053][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.369.056][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:26.382.219][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.382.280][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.382.285][7184][DEBUG][XTP:0]service(2212) call time 67
+[09:48:26.384.557][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.384.625][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.384.633][7184][DEBUG][XTP:0]service(2212) call time 77
+[09:48:26.384.935][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.384.981][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.384.985][7184][DEBUG][XTP:0]service(2212) call time 51
+[09:48:26.429.659][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.429.759][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.429.775][7184][DEBUG][XTP:0]service(2212) call time 116
+[09:48:26.430.680][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.430.725][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.430.732][7184][DEBUG][XTP:0]service(2212) call time 52
+[09:48:26.446.318][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.446.394][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.446.401][7184][DEBUG][XTP:0]service(2212) call time 84
+[09:48:26.457.763][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.457.830][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.457.837][7184][DEBUG][XTP:0]service(2212) call time 75
+[09:48:26.488.537][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.488.627][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.488.634][7184][DEBUG][XTP:0]service(2212) call time 98
+[09:48:26.532.911][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.532.977][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.532.984][7184][DEBUG][XTP:0]service(2212) call time 74
+[09:48:26.580.082][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.580.147][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.580.154][7184][DEBUG][XTP:0]service(2212) call time 73
+[09:48:26.580.158][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.580.164][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.580.167][7184][DEBUG][XTP:0]service(2212) call time 9
+[09:48:26.586.895][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.586.992][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.587.007][7184][DEBUG][XTP:0]service(2212) call time 113
+[09:48:26.599.279][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.599.377][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.599.388][7184][DEBUG][XTP:0]service(2212) call time 111
+[09:48:26.599.529][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.599.617][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.599.637][7184][DEBUG][XTP:0]service(2212) call time 108
+[09:48:26.601.067][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.601.155][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.601.171][7184][DEBUG][XTP:0]service(2212) call time 105
+[09:48:26.611.430][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.611.497][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.611.504][7184][DEBUG][XTP:0]service(2212) call time 75
+[09:48:26.611.508][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.611.513][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.611.516][7184][DEBUG][XTP:0]service(2212) call time 8
+[09:48:26.611.520][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.611.523][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.611.526][7184][DEBUG][XTP:0]service(2212) call time 6
+[09:48:26.611.530][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.611.533][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.611.536][7184][DEBUG][XTP:0]service(2212) call time 6
+[09:48:26.611.540][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.611.543][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.611.546][7184][DEBUG][XTP:0]service(2212) call time 6
+[09:48:26.611.549][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.611.553][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.611.556][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:26.611.560][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.611.563][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.611.566][7184][DEBUG][XTP:0]service(2212) call time 6
+[09:48:26.614.105][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.614.167][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.614.174][7184][DEBUG][XTP:0]service(2212) call time 70
+[09:48:26.654.090][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.654.173][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.654.188][7184][DEBUG][XTP:0]service(2212) call time 99
+[09:48:26.665.721][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.665.816][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.665.831][7184][DEBUG][XTP:0]service(2212) call time 111
+[09:48:26.665.854][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.665.890][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.665.907][7184][DEBUG][XTP:0]service(2212) call time 53
+[09:48:26.666.843][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.666.953][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.666.959][7184][DEBUG][XTP:0]service(2212) call time 117
+[09:48:26.721.236][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.721.304][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.721.314][7184][DEBUG][XTP:0]service(2212) call time 79
+[09:48:26.721.319][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.721.324][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.721.328][7184][DEBUG][XTP:0]service(2212) call time 10
+[09:48:26.736.666][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.736.720][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.736.724][7184][DEBUG][XTP:0]service(2212) call time 59
+[09:48:26.748.772][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.748.837][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.748.844][7184][DEBUG][XTP:0]service(2212) call time 73
+[09:48:26.761.594][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.761.681][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.761.691][7184][DEBUG][XTP:0]service(2212) call time 98
+[09:48:26.775.883][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.775.971][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.775.986][7184][DEBUG][XTP:0]service(2212) call time 104
+[09:48:26.775.995][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.776.006][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.776.013][7184][DEBUG][XTP:0]service(2212) call time 18
+[09:48:26.776.020][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.776.029][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.776.036][7184][DEBUG][XTP:0]service(2212) call time 16
+[09:48:26.776.043][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.776.051][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.776.058][7184][DEBUG][XTP:0]service(2212) call time 15
+[09:48:26.776.065][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.776.073][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.776.080][7184][DEBUG][XTP:0]service(2212) call time 15
+[09:48:26.787.673][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.787.725][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.787.729][7184][DEBUG][XTP:0]service(2212) call time 57
+[09:48:26.787.741][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.787.746][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.787.750][7184][DEBUG][XTP:0]service(2212) call time 8
+[09:48:26.788.407][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.788.426][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.788.430][7184][DEBUG][XTP:0]service(2212) call time 24
+[09:48:26.789.171][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.789.204][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.789.211][7184][DEBUG][XTP:0]service(2212) call time 40
+[09:48:26.789.215][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.789.220][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.789.223][7184][DEBUG][XTP:0]service(2212) call time 8
+[09:48:26.789.227][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.789.230][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.789.234][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:26.789.237][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.789.240][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.789.244][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:26.789.377][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.789.395][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.789.399][7184][DEBUG][XTP:0]service(2212) call time 22
+[09:48:26.801.607][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.801.755][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.801.776][7184][DEBUG][XTP:0]service(2212) call time 170
+[09:48:26.843.078][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.843.197][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.843.254][7184][DEBUG][XTP:0]service(2212) call time 178
+[09:48:26.854.136][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.854.223][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.854.238][7184][DEBUG][XTP:0]service(2212) call time 103
+[09:48:26.854.656][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.854.676][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.854.686][7184][DEBUG][XTP:0]service(2212) call time 30
+[09:48:26.855.541][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.855.599][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.855.610][7184][DEBUG][XTP:0]service(2212) call time 70
+[09:48:26.855.615][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.855.620][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.855.624][7184][DEBUG][XTP:0]service(2212) call time 9
+[09:48:26.855.627][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.855.631][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.855.635][7184][DEBUG][XTP:0]service(2212) call time 8
+[09:48:26.855.638][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.855.641][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.855.645][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:26.868.821][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.868.881][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.868.888][7184][DEBUG][XTP:0]service(2212) call time 68
+[09:48:26.932.687][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.932.766][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.932.774][7184][DEBUG][XTP:0]service(2212) call time 89
+[09:48:26.948.381][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.948.434][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.948.437][7184][DEBUG][XTP:0]service(2212) call time 56
+[09:48:26.991.723][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:26.991.839][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:26.991.860][7184][DEBUG][XTP:0]service(2212) call time 138
+[09:48:27.004.958][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.005.034][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.005.040][7184][DEBUG][XTP:0]service(2212) call time 84
+[09:48:27.005.045][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.005.050][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.005.054][7184][DEBUG][XTP:0]service(2212) call time 9
+[09:48:27.005.057][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.005.061][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.005.064][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:27.005.068][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.005.071][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.005.075][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:27.005.078][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.005.082][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.005.085][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:27.005.088][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.005.094][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.005.097][7184][DEBUG][XTP:0]service(2212) call time 9
+[09:48:27.005.100][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.005.105][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.005.108][7184][DEBUG][XTP:0]service(2212) call time 8
+[09:48:27.006.441][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.006.502][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.006.509][7184][DEBUG][XTP:0]service(2212) call time 69
+[09:48:27.014.433][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.014.487][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.014.490][7184][DEBUG][XTP:0]service(2212) call time 58
+[09:48:27.016.096][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.016.203][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.016.211][7184][DEBUG][XTP:0]service(2212) call time 116
+[09:48:27.035.204][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.035.296][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.035.312][7184][DEBUG][XTP:0]service(2212) call time 109
+[09:48:27.035.321][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.035.337][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.035.344][7184][DEBUG][XTP:0]service(2212) call time 23
+[09:48:27.045.181][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.045.246][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.045.319][7184][DEBUG][XTP:0]service(2212) call time 139
+[09:48:27.074.346][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.074.408][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.074.416][7184][DEBUG][XTP:0]service(2212) call time 70
+[09:48:27.074.585][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.074.617][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.074.625][7184][DEBUG][XTP:0]service(2212) call time 40
+[09:48:27.088.912][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.088.982][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.088.990][7184][DEBUG][XTP:0]service(2212) call time 79
+[09:48:27.089.377][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.089.480][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.089.520][7184][DEBUG][XTP:0]service(2212) call time 144
+[09:48:27.223.329][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.223.380][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.223.384][7184][DEBUG][XTP:0]service(2212) call time 56
+[09:48:27.237.001][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.237.070][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.237.077][7184][DEBUG][XTP:0]service(2212) call time 77
+[09:48:27.238.398][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.238.500][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.238.507][7184][DEBUG][XTP:0]service(2212) call time 110
+[09:48:27.238.512][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.238.517][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.238.520][7184][DEBUG][XTP:0]service(2212) call time 8
+[09:48:27.238.524][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.238.529][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.238.532][7184][DEBUG][XTP:0]service(2212) call time 8
+[09:48:27.239.540][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.239.593][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.239.600][7184][DEBUG][XTP:0]service(2212) call time 60
+[09:48:27.281.686][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.281.770][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.281.777][7184][DEBUG][XTP:0]service(2212) call time 92
+[09:48:27.281.782][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.281.789][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.281.804][7184][DEBUG][XTP:0]service(2212) call time 22
+[09:48:27.282.439][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.282.519][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.282.525][7184][DEBUG][XTP:0]service(2212) call time 87
+[09:48:27.282.530][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.282.534][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.282.537][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:27.282.541][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.282.545][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.282.549][7184][DEBUG][XTP:0]service(2212) call time 8
+[09:48:27.282.552][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.282.557][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.282.560][7184][DEBUG][XTP:0]service(2212) call time 8
+[09:48:27.282.564][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.282.567][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.282.571][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:27.282.574][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.282.578][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.282.581][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:27.282.585][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.282.588][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.282.592][7184][DEBUG][XTP:0]service(2212) call time 6
+[09:48:27.282.595][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.282.599][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.282.602][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:27.282.605][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.282.609][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.282.612][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:27.282.621][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.282.628][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.282.631][7184][DEBUG][XTP:0]service(2212) call time 10
+[09:48:27.282.635][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.282.638][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.282.642][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:27.282.646][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.282.650][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.282.653][7184][DEBUG][XTP:0]service(2212) call time 8
+[09:48:27.282.657][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.282.661][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.282.664][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:27.282.667][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.282.671][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.282.674][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:27.282.678][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.282.681][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.282.685][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:27.282.688][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.282.692][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.282.695][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:27.282.699][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.282.702][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.282.705][7184][DEBUG][XTP:0]service(2212) call time 6
+[09:48:27.282.709][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.282.713][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.282.716][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:27.294.413][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.294.534][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.294.551][7184][DEBUG][XTP:0]service(2212) call time 139
+[09:48:27.294.561][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.294.573][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.294.581][7184][DEBUG][XTP:0]service(2212) call time 20
+[09:48:27.295.379][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.295.449][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.295.466][7184][DEBUG][XTP:0]service(2212) call time 87
+[09:48:27.309.079][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.309.154][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.309.179][7184][DEBUG][XTP:0]service(2212) call time 101
+[09:48:27.309.184][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.309.190][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.309.194][7184][DEBUG][XTP:0]service(2212) call time 10
+[09:48:27.451.950][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.452.047][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.452.062][7184][DEBUG][XTP:0]service(2212) call time 113
+[09:48:27.452.072][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.452.083][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.452.090][7184][DEBUG][XTP:0]service(2212) call time 19
+[09:48:27.452.097][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.452.106][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.452.113][7184][DEBUG][XTP:0]service(2212) call time 16
+[09:48:27.452.120][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.452.150][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.452.163][7184][DEBUG][XTP:0]service(2212) call time 43
+[09:48:27.452.171][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.452.204][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.452.217][7184][DEBUG][XTP:0]service(2212) call time 46
+[09:48:27.466.863][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.466.934][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.466.943][7184][DEBUG][XTP:0]service(2212) call time 81
+[09:48:27.466.963][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.466.973][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.466.980][7184][DEBUG][XTP:0]service(2212) call time 17
+[09:48:27.469.304][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.469.366][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.469.375][7184][DEBUG][XTP:0]service(2212) call time 72
+[09:48:27.484.180][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.484.269][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.484.276][7184][DEBUG][XTP:0]service(2212) call time 97
+[09:48:27.484.281][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.484.292][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.484.295][7184][DEBUG][XTP:0]service(2212) call time 14
+[09:48:27.484.298][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.484.303][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.484.306][7184][DEBUG][XTP:0]service(2212) call time 8
+[09:48:27.484.309][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.484.325][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.484.331][7184][DEBUG][XTP:0]service(2212) call time 22
+[09:48:27.485.358][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.485.431][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.485.440][7184][DEBUG][XTP:0]service(2212) call time 83
+[09:48:27.487.367][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.487.432][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.487.436][7184][DEBUG][XTP:0]service(2212) call time 70
+[09:48:27.500.477][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.500.567][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.500.582][7184][DEBUG][XTP:0]service(2212) call time 106
+[09:48:27.556.095][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.556.165][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.556.172][7184][DEBUG][XTP:0]service(2212) call time 78
+[09:48:27.568.633][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.568.737][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.568.752][7184][DEBUG][XTP:0]service(2212) call time 119
+[09:48:27.603.968][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.604.047][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.604.054][7184][DEBUG][XTP:0]service(2212) call time 88
+[09:48:27.633.642][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.633.719][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.633.726][7184][DEBUG][XTP:0]service(2212) call time 85
+[09:48:27.636.841][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.636.909][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.636.916][7184][DEBUG][XTP:0]service(2212) call time 111
+[09:48:27.650.565][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.650.627][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.650.634][7184][DEBUG][XTP:0]service(2212) call time 70
+[09:48:27.679.995][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.680.093][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.680.105][7184][DEBUG][XTP:0]service(2212) call time 111
+[09:48:27.693.833][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.693.932][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.693.950][7184][DEBUG][XTP:0]service(2212) call time 118
+[09:48:27.694.943][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.695.003][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.695.010][7184][DEBUG][XTP:0]service(2212) call time 68
+[09:48:27.707.805][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.707.865][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.707.872][7184][DEBUG][XTP:0]service(2212) call time 68
+[09:48:27.749.638][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.749.689][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.749.694][7184][DEBUG][XTP:0]service(2212) call time 57
+[09:48:27.749.698][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.749.705][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.749.708][7184][DEBUG][XTP:0]service(2212) call time 10
+[09:48:27.751.381][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.751.438][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.751.445][7184][DEBUG][XTP:0]service(2212) call time 65
+[09:48:27.751.449][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.751.462][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.751.469][7184][DEBUG][XTP:0]service(2212) call time 20
+[09:48:27.752.259][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.752.288][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.752.292][7184][DEBUG][XTP:0]service(2212) call time 34
+[09:48:27.752.296][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.752.301][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.752.304][7184][DEBUG][XTP:0]service(2212) call time 8
+[09:48:27.766.361][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.766.425][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.766.432][7184][DEBUG][XTP:0]service(2212) call time 72
+[09:48:27.881.586][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.881.651][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.881.658][7184][DEBUG][XTP:0]service(2212) call time 73
+[09:48:27.882.558][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.882.625][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.882.661][7184][DEBUG][XTP:0]service(2212) call time 104
+[09:48:27.914.931][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.915.056][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.915.077][7184][DEBUG][XTP:0]service(2212) call time 147
+[09:48:27.915.108][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.915.125][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.915.134][7184][DEBUG][XTP:0]service(2212) call time 26
+[09:48:27.928.206][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.928.273][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.928.280][7184][DEBUG][XTP:0]service(2212) call time 75
+[09:48:27.928.284][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.928.290][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.928.293][7184][DEBUG][XTP:0]service(2212) call time 9
+[09:48:27.928.523][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.928.541][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.928.544][7184][DEBUG][XTP:0]service(2212) call time 22
+[09:48:27.928.548][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.928.552][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.928.555][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:27.929.521][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.929.580][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.929.586][7184][DEBUG][XTP:0]service(2212) call time 66
+[09:48:27.929.591][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.929.595][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.929.599][7184][DEBUG][XTP:0]service(2212) call time 8
+[09:48:27.929.691][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.929.709][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.929.713][7184][DEBUG][XTP:0]service(2212) call time 22
+[09:48:27.973.039][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.973.162][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.973.183][7184][DEBUG][XTP:0]service(2212) call time 146
+[09:48:27.973.888][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.973.911][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.973.915][7184][DEBUG][XTP:0]service(2212) call time 28
+[09:48:27.974.476][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.974.543][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.974.558][7184][DEBUG][XTP:0]service(2212) call time 83
+[09:48:27.987.838][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:27.987.929][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:27.987.944][7184][DEBUG][XTP:0]service(2212) call time 107
+[09:48:28.030.661][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.030.724][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.030.731][7184][DEBUG][XTP:0]service(2212) call time 71
+[09:48:28.057.164][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.057.234][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.057.240][7184][DEBUG][XTP:0]service(2212) call time 77
+[09:48:28.057.245][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.057.249][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.057.336][7184][DEBUG][XTP:0]service(2212) call time 91
+[09:48:28.086.253][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.086.314][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.086.321][7184][DEBUG][XTP:0]service(2212) call time 69
+[09:48:28.097.632][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.097.681][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.097.685][7184][DEBUG][XTP:0]service(2212) call time 54
+[09:48:28.097.689][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.097.693][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.097.696][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:28.098.503][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.098.569][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.098.576][7184][DEBUG][XTP:0]service(2212) call time 74
+[09:48:28.111.943][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.112.004][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.112.011][7184][DEBUG][XTP:0]service(2212) call time 69
+[09:48:28.113.105][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.113.175][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.113.182][7184][DEBUG][XTP:0]service(2212) call time 78
+[09:48:28.126.479][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.126.544][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.126.551][7184][DEBUG][XTP:0]service(2212) call time 82
+[09:48:28.156.591][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.156.677][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.156.689][7184][DEBUG][XTP:0]service(2212) call time 99
+[09:48:28.157.751][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.157.801][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.157.804][7184][DEBUG][XTP:0]service(2212) call time 54
+[09:48:28.175.251][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.175.310][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.175.320][7184][DEBUG][XTP:0]service(2212) call time 70
+[09:48:28.176.485][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.176.542][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.176.549][7184][DEBUG][XTP:0]service(2212) call time 65
+[09:48:28.176.554][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.176.558][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.176.562][7184][DEBUG][XTP:0]service(2212) call time 9
+[09:48:28.177.047][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.177.107][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.177.114][7184][DEBUG][XTP:0]service(2212) call time 68
+[09:48:28.206.542][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.206.605][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.206.612][7184][DEBUG][XTP:0]service(2212) call time 70
+[09:48:28.206.616][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.206.622][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.206.625][7184][DEBUG][XTP:0]service(2212) call time 9
+[09:48:28.290.692][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.290.767][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.290.774][7184][DEBUG][XTP:0]service(2212) call time 84
+[09:48:28.292.410][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.292.473][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.292.480][7184][DEBUG][XTP:0]service(2212) call time 71
+[09:48:28.304.841][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.304.900][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.304.904][7184][DEBUG][XTP:0]service(2212) call time 64
+[09:48:28.308.405][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.308.451][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.308.455][7184][DEBUG][XTP:0]service(2212) call time 51
+[09:48:28.308.459][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.308.464][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.308.467][7184][DEBUG][XTP:0]service(2212) call time 8
+[09:48:28.308.501][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.308.511][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.308.514][7184][DEBUG][XTP:0]service(2212) call time 13
+[09:48:28.308.529][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.308.537][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.308.541][7184][DEBUG][XTP:0]service(2212) call time 12
+[09:48:28.322.698][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.322.759][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.322.766][7184][DEBUG][XTP:0]service(2212) call time 69
+[09:48:28.323.654][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.323.736][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.323.742][7184][DEBUG][XTP:0]service(2212) call time 89
+[09:48:28.335.374][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.335.439][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.335.446][7184][DEBUG][XTP:0]service(2212) call time 73
+[09:48:28.335.451][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.335.457][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.335.460][7184][DEBUG][XTP:0]service(2212) call time 9
+[09:48:28.363.139][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.363.192][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.363.196][7184][DEBUG][XTP:0]service(2212) call time 59
+[09:48:28.363.207][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.363.212][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.363.215][7184][DEBUG][XTP:0]service(2212) call time 8
+[09:48:28.364.123][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.364.187][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.364.194][7184][DEBUG][XTP:0]service(2212) call time 71
+[09:48:28.374.963][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.375.038][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.375.043][7184][DEBUG][XTP:0]service(2212) call time 81
+[09:48:28.375.048][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.375.052][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.375.055][7184][DEBUG][XTP:0]service(2212) call time 8
+[09:48:28.375.068][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.375.072][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.375.075][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:28.375.748][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.375.812][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.375.819][7184][DEBUG][XTP:0]service(2212) call time 72
+[09:48:28.416.578][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.416.638][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.416.645][7184][DEBUG][XTP:0]service(2212) call time 68
+[09:48:28.430.791][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.430.857][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.430.864][7184][DEBUG][XTP:0]service(2212) call time 74
+[09:48:28.441.800][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.441.860][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.441.867][7184][DEBUG][XTP:0]service(2212) call time 68
+[09:48:28.441.872][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.441.877][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.441.881][7184][DEBUG][XTP:0]service(2212) call time 9
+[09:48:28.441.884][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.441.888][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.441.891][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:28.442.903][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.442.967][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.442.974][7184][DEBUG][XTP:0]service(2212) call time 72
+[09:48:28.470.499][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.470.576][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.470.588][7184][DEBUG][XTP:0]service(2212) call time 90
+[09:48:28.470.594][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.470.600][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.470.604][7184][DEBUG][XTP:0]service(2212) call time 10
+[09:48:28.470.607][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.470.611][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.470.614][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:28.483.785][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.483.892][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.483.912][7184][DEBUG][XTP:0]service(2212) call time 129
+[09:48:28.510.917][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.510.981][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.510.988][7184][DEBUG][XTP:0]service(2212) call time 72
+[09:48:28.566.995][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.567.068][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.567.075][7184][DEBUG][XTP:0]service(2212) call time 81
+[09:48:28.567.079][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.567.084][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.567.087][7184][DEBUG][XTP:0]service(2212) call time 8
+[09:48:28.568.164][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.568.251][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.568.266][7184][DEBUG][XTP:0]service(2212) call time 102
+[09:48:28.581.766][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.581.830][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.581.837][7184][DEBUG][XTP:0]service(2212) call time 71
+[09:48:28.583.016][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.583.046][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.583.050][7184][DEBUG][XTP:0]service(2212) call time 34
+[09:48:28.583.054][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.583.058][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.583.061][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:28.583.064][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.583.068][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.583.071][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:28.583.075][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.583.078][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.583.081][7184][DEBUG][XTP:0]service(2212) call time 6
+[09:48:28.583.085][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.583.088][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.583.091][7184][DEBUG][XTP:0]service(2212) call time 6
+[09:48:28.583.095][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.583.099][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.583.102][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:28.583.105][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.583.109][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.583.112][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:28.583.115][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.583.119][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.583.122][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:28.583.125][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.583.130][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.583.134][7184][DEBUG][XTP:0]service(2212) call time 9
+[09:48:28.583.137][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.583.141][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.583.144][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:28.583.147][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.583.151][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.583.154][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:28.583.157][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.583.162][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.583.165][7184][DEBUG][XTP:0]service(2212) call time 8
+[09:48:28.583.168][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.583.172][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.583.175][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:28.583.179][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.583.194][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.583.201][7184][DEBUG][XTP:0]service(2212) call time 22
+[09:48:28.647.743][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.647.804][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.647.813][7184][DEBUG][XTP:0]service(2212) call time 71
+[09:48:28.647.817][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.647.828][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.647.835][7184][DEBUG][XTP:0]service(2212) call time 18
+[09:48:28.674.582][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.674.642][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.674.646][7184][DEBUG][XTP:0]service(2212) call time 65
+[09:48:28.674.651][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.674.659][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.674.662][7184][DEBUG][XTP:0]service(2212) call time 11
+[09:48:28.674.665][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.674.669][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.674.673][7184][DEBUG][XTP:0]service(2212) call time 7
+[09:48:28.675.807][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.675.889][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.675.904][7184][DEBUG][XTP:0]service(2212) call time 99
+[09:48:28.675.928][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.675.941][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.675.948][7184][DEBUG][XTP:0]service(2212) call time 20
+[09:48:28.675.956][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.675.988][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.676.001][7184][DEBUG][XTP:0]service(2212) call time 45
+[09:48:28.689.457][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.689.549][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.689.557][7184][DEBUG][XTP:0]service(2212) call time 101
+[09:48:28.689.562][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.689.567][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.689.583][7184][DEBUG][XTP:0]service(2212) call time 21
+[09:48:28.703.497][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.703.552][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.703.556][7184][DEBUG][XTP:0]service(2212) call time 60
+[09:48:28.744.001][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.744.073][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.744.080][7184][DEBUG][XTP:0]service(2212) call time 79
+[09:48:28.744.084][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.744.089][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.744.092][7184][DEBUG][XTP:0]service(2212) call time 8
+[09:48:28.745.171][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.745.241][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.745.250][7184][DEBUG][XTP:0]service(2212) call time 80
+[09:48:28.746.215][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.746.267][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.746.274][7184][DEBUG][XTP:0]service(2212) call time 60
+[09:48:28.746.278][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.746.284][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.746.287][7184][DEBUG][XTP:0]service(2212) call time 9
+[09:48:28.746.291][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.746.296][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.746.299][7184][DEBUG][XTP:0]service(2212) call time 8
+[09:48:28.758.407][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.758.479][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.758.486][7184][DEBUG][XTP:0]service(2212) call time 80
+[09:48:28.759.550][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.759.600][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.759.607][7184][DEBUG][XTP:0]service(2212) call time 57
+[09:48:28.856.743][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.856.836][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.856.851][7184][DEBUG][XTP:0]service(2212) call time 109
+[09:48:28.908.817][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.908.875][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.908.882][7184][DEBUG][XTP:0]service(2212) call time 66
+[09:48:28.909.645][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.909.695][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.909.702][7184][DEBUG][XTP:0]service(2212) call time 58
+[09:48:28.909.707][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.909.712][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.909.720][7184][DEBUG][XTP:0]service(2212) call time 14
+[09:48:28.920.897][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.920.964][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.920.971][7184][DEBUG][XTP:0]service(2212) call time 75
+[09:48:28.920.975][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.920.980][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.920.983][7184][DEBUG][XTP:0]service(2212) call time 8
+[09:48:28.948.498][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.948.569][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.948.576][7184][DEBUG][XTP:0]service(2212) call time 79
+[09:48:28.960.649][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.960.753][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.960.898][7184][DEBUG][XTP:0]service(2212) call time 251
+[09:48:28.960.935][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.960.981][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.960.989][7184][DEBUG][XTP:0]service(2212) call time 55
+[09:48:28.973.641][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.973.790][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.973.801][7184][DEBUG][XTP:0]service(2212) call time 162
+[09:48:28.973.808][7184][DEBUG][XTP:0]Receive tick by tick.
+[09:48:28.973.815][7184][DEBUG][XTP:0]Receive tick by tick success.
+[09:48:28.973.820][7184][DEBUG][XTP:0]service(2212) call time 11

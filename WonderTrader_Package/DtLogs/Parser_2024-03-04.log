@@ -1,0 +1,23 @@
+[2024.03.04 15:16:30 - info ] [parser] Parser module F:/wtpy-master/wtpy/wrapper/x64/parsers/ParserXTP.dll loaded
+[2024.03.04 15:16:30 - info ] [ParserXTP] Connecting server successed: 0, begin to subscibe data ...
+[2024.03.04 15:19:21 - info ] [parser] Parser module F:/wtpy-master/wtpy/wrapper/x64/parsers/ParserXTP.dll loaded
+[2024.03.04 15:19:22 - info ] [ParserXTP] Connecting server successed: 0, begin to subscibe data ...
+[2024.03.04 15:19:22 - info ] [ParserXTP] Market data of 4 instruments of SSE subscribed
+[2024.03.04 15:19:22 - info ] [ParserXTP] Tick_by_tick data of 4 instruments of SSE subscribed
+[2024.03.04 15:19:22 - info ] [ParserXTP] Market data of 1 instruments of SZSE subscribed
+[2024.03.04 15:19:22 - info ] [ParserXTP] Tick_by_tick data of 1 instruments of SZSE subscribed
+[2024.03.04 15:29:31 - info ] [parser] Parser module F:/wtpy-master/wtpy/wrapper/x64/parsers/ParserXTP.dll loaded
+[2024.03.04 15:29:31 - info ] [ParserXTP] Connecting server successed: 0, begin to subscibe data ...
+[2024.03.04 15:29:31 - info ] [ParserXTP] Market data of 4 instruments of SSE subscribed
+[2024.03.04 15:29:31 - info ] [ParserXTP] Tick_by_tick data of 4 instruments of SSE subscribed
+[2024.03.04 15:29:31 - info ] [ParserXTP] Market data of 1 instruments of SZSE subscribed
+[2024.03.04 15:29:31 - info ] [ParserXTP] Tick_by_tick data of 1 instruments of SZSE subscribed
+[2024.03.04 15:30:01 - error] [ParserXTP] Market data server disconnected: 10200006...
+[2024.03.04 15:30:01 - warning] [ParserXTP] Connection lost, relogin in 2 seconds...
+[2024.03.04 15:30:08 - error] [ParserXTP] Connecting server failed: [XTP:13]get_recv_frame function failed(SOCKET ERROR).
+[2024.03.04 15:30:32 - info ] [parser] Parser module F:/wtpy-master/wtpy/wrapper/x64/parsers/ParserXTP.dll loaded
+[2024.03.04 15:30:32 - info ] [ParserXTP] Connecting server successed: 0, begin to subscibe data ...
+[2024.03.04 15:30:32 - info ] [ParserXTP] Market data of 4 instruments of SSE subscribed
+[2024.03.04 15:30:32 - info ] [ParserXTP] Tick_by_tick data of 4 instruments of SSE subscribed
+[2024.03.04 15:30:32 - info ] [ParserXTP] Market data of 1 instruments of SZSE subscribed
+[2024.03.04 15:30:32 - info ] [ParserXTP] Tick_by_tick data of 1 instruments of SZSE subscribed

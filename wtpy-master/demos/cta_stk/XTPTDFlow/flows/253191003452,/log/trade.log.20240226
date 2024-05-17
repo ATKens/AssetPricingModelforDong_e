@@ -1,0 +1,200 @@
+[17:28:29.925.135][10384][INFO][XTP:0][init_log_file]:End: XTPTDFlow/flows/253191003452,/log/trade.log, api version : 2.2.32
+[17:28:29.925.566][10384][INFO][XTP:0]Begin to init trader api.
+[17:28:29.925.590][10384][INFO][XTP:0]Begin to register service function.
+[17:28:29.925.866][10384][DEBUG][XTP:0]register service function ok(3102).
+[17:28:29.925.875][10384][DEBUG][XTP:0]register service function ok(3110).
+[17:28:29.925.883][10384][DEBUG][XTP:0]register service function ok(3114).
+[17:28:29.925.891][10384][DEBUG][XTP:0]register service function ok(3634).
+[17:28:29.925.899][10384][DEBUG][XTP:0]register service function ok(3118).
+[17:28:29.925.907][10384][DEBUG][XTP:0]register service function ok(3194).
+[17:28:29.926.193][10384][DEBUG][XTP:0]register service function ok(3636).
+[17:28:29.926.205][10384][DEBUG][XTP:0]register service function ok(3196).
+[17:28:29.926.208][10384][DEBUG][XTP:0]register service function ok(3142).
+[17:28:29.926.211][10384][DEBUG][XTP:0]register service function ok(3146).
+[17:28:29.926.214][10384][DEBUG][XTP:0]register service function ok(3108).
+[17:28:29.926.217][10384][DEBUG][XTP:0]register service function ok(3104).
+[17:28:29.926.220][10384][DEBUG][XTP:0]register service function ok(53).
+[17:28:29.926.223][10384][DEBUG][XTP:0]register service function ok(51).
+[17:28:29.926.226][10384][DEBUG][XTP:0]register service function ok(52).
+[17:28:29.926.229][10384][DEBUG][XTP:0]register service function ok(9).
+[17:28:29.926.233][10384][DEBUG][XTP:0]register service function ok(3132).
+[17:28:29.926.236][10384][DEBUG][XTP:0]register service function ok(3206).
+[17:28:29.926.239][10384][DEBUG][XTP:0]register service function ok(3128).
+[17:28:29.926.242][10384][DEBUG][XTP:0]register service function ok(3126).
+[17:28:29.926.245][10384][DEBUG][XTP:0]register service function ok(3208).
+[17:28:29.926.248][10384][DEBUG][XTP:0]register service function ok(3136).
+[17:28:29.926.251][10384][DEBUG][XTP:0]register service function ok(3190).
+[17:28:29.926.254][10384][DEBUG][XTP:0]register service function ok(3148).
+[17:28:29.926.257][10384][DEBUG][XTP:0]register service function ok(3192).
+[17:28:29.926.260][10384][DEBUG][XTP:0]register service function ok(3153).
+[17:28:29.926.263][10384][DEBUG][XTP:0]register service function ok(3156).
+[17:28:29.926.266][10384][DEBUG][XTP:0]register service function ok(3176).
+[17:28:29.926.269][10384][DEBUG][XTP:0]register service function ok(3158).
+[17:28:29.926.272][10384][DEBUG][XTP:0]register service function ok(3162).
+[17:28:29.926.275][10384][DEBUG][XTP:0]register service function ok(3160).
+[17:28:29.926.278][10384][DEBUG][XTP:0]register service function ok(3164).
+[17:28:29.926.281][10384][DEBUG][XTP:0]register service function ok(3166).
+[17:28:29.926.284][10384][DEBUG][XTP:0]register service function ok(3168).
+[17:28:29.926.287][10384][DEBUG][XTP:0]register service function ok(3172).
+[17:28:29.926.290][10384][DEBUG][XTP:0]register service function ok(3174).
+[17:28:29.926.293][10384][DEBUG][XTP:0]register service function ok(3170).
+[17:28:29.926.296][10384][DEBUG][XTP:0]register service function ok(3602).
+[17:28:29.926.299][10384][DEBUG][XTP:0]register service function ok(3198).
+[17:28:29.926.302][10384][DEBUG][XTP:0]register service function ok(3200).
+[17:28:29.926.306][10384][DEBUG][XTP:0]register service function ok(3702).
+[17:28:29.926.309][10384][DEBUG][XTP:0]register service function ok(3705).
+[17:28:29.926.312][10384][DEBUG][XTP:0]register service function ok(3704).
+[17:28:29.926.315][10384][DEBUG][XTP:0]register service function ok(3713).
+[17:28:29.926.318][10384][DEBUG][XTP:0]register service function ok(3735).
+[17:28:29.926.321][10384][DEBUG][XTP:0]register service function ok(3753).
+[17:28:29.926.324][10384][DEBUG][XTP:0]register service function ok(3755).
+[17:28:29.926.327][10384][DEBUG][XTP:0]register service function ok(3716).
+[17:28:29.926.330][10384][DEBUG][XTP:0]register service function ok(3737).
+[17:28:29.926.333][10384][DEBUG][XTP:0]register service function ok(3733).
+[17:28:29.926.336][10384][DEBUG][XTP:0]register service function ok(3721).
+[17:28:29.926.360][10384][DEBUG][XTP:0]register service function ok(3742).
+[17:28:29.926.537][10384][INFO][XTP:0]End to register service function 1.
+[17:28:29.926.548][10384][DEBUG][XTP:0]Begin to init terminal info.
+[17:28:29.926.639][10384][DEBUG][XTP:0]End to init terminal info.
+[17:28:29.926.647][10384][DEBUG][XTP:0]Init order manager.
+[17:28:29.926.690][10384][DEBUG][XTP:0]order manager Initialize.
+[17:28:29.946.354][10384][INFO][XTP:0]Init trader api success.
+[17:28:29.946.405][10384][DEBUG][XTP:0]Begin to set software version : 1.0.0.
+[17:28:29.946.409][10384][DEBUG][XTP:0]Begin to set software key : b8aa7173bba3470e390d787219b2112e,.
+[17:28:29.946.426][10384][INFO][XTP:0]Begin to login to oms server 120.27.164.69:6001.
+[17:28:34.953.401][10384][INFO][XTP:0]Close SessionTCP session: 000001B9F5925050 socket: 000001B9F54E03D0
+[17:28:34.954.544][10384][DEBUG][XTP:0]api_login_server session is NULL: 0.
+[17:28:34.954.570][10384][ERROR][XTP:10210000]253191003452, login to oms server 120.27.164.69:6001 failed.[xtp_trader_private_api.cpp:332][XTP:13]get_recv_frame function failed(SOCKET ERROR).[xbase_login.cpp:76]
+[17:47:29.008.419][4792][INFO][XTP:0][init_log_file]:End: XTPTDFlow/flows/253191003452,/log/trade.log, api version : 2.2.32
+[17:47:29.009.168][4792][INFO][XTP:0]Begin to init trader api.
+[17:47:29.009.216][4792][INFO][XTP:0]Begin to register service function.
+[17:47:29.009.234][4792][DEBUG][XTP:0]register service function ok(3102).
+[17:47:29.009.249][4792][DEBUG][XTP:0]register service function ok(3110).
+[17:47:29.009.252][4792][DEBUG][XTP:0]register service function ok(3114).
+[17:47:29.009.256][4792][DEBUG][XTP:0]register service function ok(3634).
+[17:47:29.009.259][4792][DEBUG][XTP:0]register service function ok(3118).
+[17:47:29.009.263][4792][DEBUG][XTP:0]register service function ok(3194).
+[17:47:29.009.266][4792][DEBUG][XTP:0]register service function ok(3636).
+[17:47:29.009.286][4792][DEBUG][XTP:0]register service function ok(3196).
+[17:47:29.009.309][4792][DEBUG][XTP:0]register service function ok(3142).
+[17:47:29.009.312][4792][DEBUG][XTP:0]register service function ok(3146).
+[17:47:29.009.315][4792][DEBUG][XTP:0]register service function ok(3108).
+[17:47:29.009.318][4792][DEBUG][XTP:0]register service function ok(3104).
+[17:47:29.009.321][4792][DEBUG][XTP:0]register service function ok(53).
+[17:47:29.009.325][4792][DEBUG][XTP:0]register service function ok(51).
+[17:47:29.009.328][4792][DEBUG][XTP:0]register service function ok(52).
+[17:47:29.009.331][4792][DEBUG][XTP:0]register service function ok(9).
+[17:47:29.009.334][4792][DEBUG][XTP:0]register service function ok(3132).
+[17:47:29.009.338][4792][DEBUG][XTP:0]register service function ok(3206).
+[17:47:29.009.341][4792][DEBUG][XTP:0]register service function ok(3128).
+[17:47:29.009.344][4792][DEBUG][XTP:0]register service function ok(3126).
+[17:47:29.009.347][4792][DEBUG][XTP:0]register service function ok(3208).
+[17:47:29.009.350][4792][DEBUG][XTP:0]register service function ok(3136).
+[17:47:29.009.353][4792][DEBUG][XTP:0]register service function ok(3190).
+[17:47:29.009.357][4792][DEBUG][XTP:0]register service function ok(3148).
+[17:47:29.009.360][4792][DEBUG][XTP:0]register service function ok(3192).
+[17:47:29.009.363][4792][DEBUG][XTP:0]register service function ok(3153).
+[17:47:29.009.366][4792][DEBUG][XTP:0]register service function ok(3156).
+[17:47:29.009.369][4792][DEBUG][XTP:0]register service function ok(3176).
+[17:47:29.009.372][4792][DEBUG][XTP:0]register service function ok(3158).
+[17:47:29.009.376][4792][DEBUG][XTP:0]register service function ok(3162).
+[17:47:29.009.379][4792][DEBUG][XTP:0]register service function ok(3160).
+[17:47:29.009.382][4792][DEBUG][XTP:0]register service function ok(3164).
+[17:47:29.009.385][4792][DEBUG][XTP:0]register service function ok(3166).
+[17:47:29.009.388][4792][DEBUG][XTP:0]register service function ok(3168).
+[17:47:29.009.391][4792][DEBUG][XTP:0]register service function ok(3172).
+[17:47:29.009.395][4792][DEBUG][XTP:0]register service function ok(3174).
+[17:47:29.009.398][4792][DEBUG][XTP:0]register service function ok(3170).
+[17:47:29.009.560][4792][DEBUG][XTP:0]register service function ok(3602).
+[17:47:29.009.569][4792][DEBUG][XTP:0]register service function ok(3198).
+[17:47:29.009.573][4792][DEBUG][XTP:0]register service function ok(3200).
+[17:47:29.009.576][4792][DEBUG][XTP:0]register service function ok(3702).
+[17:47:29.009.579][4792][DEBUG][XTP:0]register service function ok(3705).
+[17:47:29.009.582][4792][DEBUG][XTP:0]register service function ok(3704).
+[17:47:29.009.586][4792][DEBUG][XTP:0]register service function ok(3713).
+[17:47:29.009.589][4792][DEBUG][XTP:0]register service function ok(3735).
+[17:47:29.009.593][4792][DEBUG][XTP:0]register service function ok(3753).
+[17:47:29.009.596][4792][DEBUG][XTP:0]register service function ok(3755).
+[17:47:29.009.599][4792][DEBUG][XTP:0]register service function ok(3716).
+[17:47:29.009.602][4792][DEBUG][XTP:0]register service function ok(3737).
+[17:47:29.009.605][4792][DEBUG][XTP:0]register service function ok(3733).
+[17:47:29.009.609][4792][DEBUG][XTP:0]register service function ok(3721).
+[17:47:29.009.617][4792][DEBUG][XTP:0]register service function ok(3742).
+[17:47:29.009.620][4792][INFO][XTP:0]End to register service function 1.
+[17:47:29.009.624][4792][DEBUG][XTP:0]Begin to init terminal info.
+[17:47:29.009.718][4792][DEBUG][XTP:0]End to init terminal info.
+[17:47:29.009.726][4792][DEBUG][XTP:0]Init order manager.
+[17:47:29.009.777][4792][DEBUG][XTP:0]order manager Initialize.
+[17:47:29.041.606][4792][INFO][XTP:0]Init trader api success.
+[17:47:29.041.667][4792][DEBUG][XTP:0]Begin to set software version : 1.0.0.
+[17:47:29.041.672][4792][DEBUG][XTP:0]Begin to set software key : b8aa7173bba3470e390d787219b2112e,.
+[17:47:29.041.694][4792][INFO][XTP:0]Begin to login to oms server 120.27.164.69:6001.
+[17:47:39.056.292][4792][DEBUG][XTP:0]api_login_server session is NULL: 0.
+[17:47:39.056.319][4792][ERROR][XTP:10210000]253191003452, login to oms server 120.27.164.69:6001 failed.[xtp_trader_private_api.cpp:332][XTP:1]connect server failed.[xbase_login.cpp:105]
+[17:50:48.387.076][10988][INFO][XTP:0][init_log_file]:End: XTPTDFlow/flows/253191003452,/log/trade.log, api version : 2.2.32
+[17:50:48.387.301][10988][INFO][XTP:0]Begin to init trader api.
+[17:50:48.387.309][10988][INFO][XTP:0]Begin to register service function.
+[17:50:48.387.316][10988][DEBUG][XTP:0]register service function ok(3102).
+[17:50:48.387.319][10988][DEBUG][XTP:0]register service function ok(3110).
+[17:50:48.387.323][10988][DEBUG][XTP:0]register service function ok(3114).
+[17:50:48.387.326][10988][DEBUG][XTP:0]register service function ok(3634).
+[17:50:48.387.330][10988][DEBUG][XTP:0]register service function ok(3118).
+[17:50:48.387.333][10988][DEBUG][XTP:0]register service function ok(3194).
+[17:50:48.387.336][10988][DEBUG][XTP:0]register service function ok(3636).
+[17:50:48.387.340][10988][DEBUG][XTP:0]register service function ok(3196).
+[17:50:48.387.343][10988][DEBUG][XTP:0]register service function ok(3142).
+[17:50:48.387.346][10988][DEBUG][XTP:0]register service function ok(3146).
+[17:50:48.387.350][10988][DEBUG][XTP:0]register service function ok(3108).
+[17:50:48.387.353][10988][DEBUG][XTP:0]register service function ok(3104).
+[17:50:48.387.356][10988][DEBUG][XTP:0]register service function ok(53).
+[17:50:48.387.359][10988][DEBUG][XTP:0]register service function ok(51).
+[17:50:48.387.363][10988][DEBUG][XTP:0]register service function ok(52).
+[17:50:48.387.366][10988][DEBUG][XTP:0]register service function ok(9).
+[17:50:48.387.369][10988][DEBUG][XTP:0]register service function ok(3132).
+[17:50:48.387.373][10988][DEBUG][XTP:0]register service function ok(3206).
+[17:50:48.387.376][10988][DEBUG][XTP:0]register service function ok(3128).
+[17:50:48.387.379][10988][DEBUG][XTP:0]register service function ok(3126).
+[17:50:48.387.400][10988][DEBUG][XTP:0]register service function ok(3208).
+[17:50:48.387.404][10988][DEBUG][XTP:0]register service function ok(3136).
+[17:50:48.387.407][10988][DEBUG][XTP:0]register service function ok(3190).
+[17:50:48.387.425][10988][DEBUG][XTP:0]register service function ok(3148).
+[17:50:48.387.429][10988][DEBUG][XTP:0]register service function ok(3192).
+[17:50:48.387.486][10988][DEBUG][XTP:0]register service function ok(3153).
+[17:50:48.387.494][10988][DEBUG][XTP:0]register service function ok(3156).
+[17:50:48.387.497][10988][DEBUG][XTP:0]register service function ok(3176).
+[17:50:48.387.500][10988][DEBUG][XTP:0]register service function ok(3158).
+[17:50:48.387.504][10988][DEBUG][XTP:0]register service function ok(3162).
+[17:50:48.387.507][10988][DEBUG][XTP:0]register service function ok(3160).
+[17:50:48.387.510][10988][DEBUG][XTP:0]register service function ok(3164).
+[17:50:48.387.514][10988][DEBUG][XTP:0]register service function ok(3166).
+[17:50:48.387.517][10988][DEBUG][XTP:0]register service function ok(3168).
+[17:50:48.387.520][10988][DEBUG][XTP:0]register service function ok(3172).
+[17:50:48.387.523][10988][DEBUG][XTP:0]register service function ok(3174).
+[17:50:48.387.527][10988][DEBUG][XTP:0]register service function ok(3170).
+[17:50:48.387.530][10988][DEBUG][XTP:0]register service function ok(3602).
+[17:50:48.387.533][10988][DEBUG][XTP:0]register service function ok(3198).
+[17:50:48.387.537][10988][DEBUG][XTP:0]register service function ok(3200).
+[17:50:48.387.540][10988][DEBUG][XTP:0]register service function ok(3702).
+[17:50:48.387.543][10988][DEBUG][XTP:0]register service function ok(3705).
+[17:50:48.387.546][10988][DEBUG][XTP:0]register service function ok(3704).
+[17:50:48.387.550][10988][DEBUG][XTP:0]register service function ok(3713).
+[17:50:48.387.553][10988][DEBUG][XTP:0]register service function ok(3735).
+[17:50:48.387.556][10988][DEBUG][XTP:0]register service function ok(3753).
+[17:50:48.387.560][10988][DEBUG][XTP:0]register service function ok(3755).
+[17:50:48.387.563][10988][DEBUG][XTP:0]register service function ok(3716).
+[17:50:48.387.566][10988][DEBUG][XTP:0]register service function ok(3737).
+[17:50:48.387.569][10988][DEBUG][XTP:0]register service function ok(3733).
+[17:50:48.387.573][10988][DEBUG][XTP:0]register service function ok(3721).
+[17:50:48.387.579][10988][DEBUG][XTP:0]register service function ok(3742).
+[17:50:48.387.582][10988][INFO][XTP:0]End to register service function 1.
+[17:50:48.387.586][10988][DEBUG][XTP:0]Begin to init terminal info.
+[17:50:48.387.665][10988][DEBUG][XTP:0]End to init terminal info.
+[17:50:48.387.673][10988][DEBUG][XTP:0]Init order manager.
+[17:50:48.387.716][10988][DEBUG][XTP:0]order manager Initialize.
+[17:50:48.431.262][10988][INFO][XTP:0]Init trader api success.
+[17:50:48.431.317][10988][DEBUG][XTP:0]Begin to set software version : 1.0.0.
+[17:50:48.431.323][10988][DEBUG][XTP:0]Begin to set software key : b8aa7173bba3470e390d787219b2112e,.
+[17:50:48.431.340][10988][INFO][XTP:0]Begin to login to oms server 119.3.103.38:6002.
+[17:50:48.588.550][10988][INFO][XTP:0]Close SessionTCP session: 000001B5FD6FE070 socket: 000001B5FD3BCD90
+[17:50:48.588.813][10988][DEBUG][XTP:0]api_login_server session is NULL: 0.
+[17:50:48.588.824][10988][ERROR][XTP:10210000]253191003452, login to oms server 119.3.103.38:6002 failed.[xtp_trader_private_api.cpp:332][XTP:13]get_recv_frame function failed(SOCKET ERROR).[xbase_login.cpp:250]

@@ -1,0 +1,12 @@
+{
+    "marks": [
+        "pydt_SH600000"
+    ],
+    "channels": [
+        "simnow"
+    ],
+    "executers": [
+        "exec"
+    ],
+    "engine": "CTA"
+}
