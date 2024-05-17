@@ -1,8 +1,0 @@
-basefiles:
-    session: ./Common./sessions.json
-    commodity: 
-    -   ./Common./commodities.json
-    -   ./Common./sopt_comms.json
-    contract: 
-    -   ./Common./contracts.json
-    -   ./Common./stk_options.json
